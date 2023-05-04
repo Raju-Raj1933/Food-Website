@@ -1,0 +1,147 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+body{
+      background-color: #1b1b1b;
+      padding: 0rem 2.5rem;
+
+}
+
+.header {
+      background-color: #fff;
+      padding: 20px;
+}
+
+.navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+}
+
+.navbar ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      margin-right: 20px;
+}
+
+.navbar li {
+      margin: 0 10px;
+}
+
+.navbar a {
+      color: #1b1b1b;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 0px 20px;
+}
+
+.icons {
+      display: flex;
+      align-items: center;
+}
+
+.icons svg {
+      border: 2px solid black;
+      border-radius: 50%;
+      margin: 2px;
+}
+
+.icons img {
+      max-width: 40px;
+      height: auto;
+      margin-left: 10px;
+      margin-right: 20px;
+}
+
+.navbar-container {
+      padding-bottom: 100px;
+      background-image: linear-gradient(to right, rgba(255, 0, 174, 0.776), #b78a69, rgba(255, 255, 0, 0.783));
+}
+
+.background {
+      background-image: url('image/img1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      display: flex;
+      align-items: center;
+}
+
+.background-text {
+      background-color: #d49198;
+      padding: 30px 80px 30px 30px;
+      width: 37rem;
+      line-height: 30px;
+      color: white;
+      margin-left: 2.4rem;
+
+
+}
+
+.background-text h2 {
+      font-size: 2rem;
+      color: white;
+      font-weight: 900;
+      line-height: 70px;
+
+}
+
+.images-container {
+      background-image: linear-gradient(to right, rgba(255, 0, 174, 0.776), #b78a69, rgba(255, 255, 0, 0.783));
+      margin-top: 20px;
+      background-color: red;
+}
+
+
+.container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 30px;
+}
+
+.row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+
+
+.col {
+      flex-basis: calc(30% - 20px);
+      margin-bottom: 20px;
+      text-align: center;
+}
+
+img {
+      max-width: 100%;
+      height: 250px;
+      border-top-right-radius: 70px;
+}
+
+#card1,
+#card2,
+#card3 {
+      padding: 20px 20px 50px 20px;
+      background-color: #FFFFFF;
+      border-radius: 0px 70px 0px 70px;
+}
+
+.order {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20px;
+      padding-bottom: 90px;
+}
+
+.order h1 {
+      padding: 20px 60px;
+      border-radius: 50px 50px;
+      background-color: #d09d8c;
+      opacity: 0.7;
+}
